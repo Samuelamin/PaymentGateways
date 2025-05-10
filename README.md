@@ -23,31 +23,31 @@ A Laravel-based modular payment integration system that dynamically selects and 
 - `PaymentsSeeder`: Seeds sample gateway data
 
 ## 📂 File Structure
-
+## 📂 File Structure
 app/
 ├── Http/
-│ └── Controllers/
-│ └── PaymentGatewayController.php
+│   └── Controllers/
+│       └── PaymentGatewayController.php
 ├── Livewire/
-│ └── Settings/
-│ ├── Appearance.php
-│ ├── Password.php
-│ └── Profile.php
+│   └── Settings/
+│       ├── Appearance.php
+│       ├── Password.php
+│       └── Profile.php
 ├── Models/
-│ └── Payment.php
+│   └── Payment.php
 ├── PaymentGateways/
-│ ├── Payments/
-│ │ ├── GeideaGateway.php
-│ │ ├── HyperPayGateway.php
-│ │ └── NeoLeapGateway.php
-│ ├── PaymentContext.php
-│ └── SelectPaymentService.php
+│   ├── Payments/
+│   │   ├── GeideaGateway.php
+│   │   ├── HyperPayGateway.php
+│   │   └── NeoLeapGateway.php
+│   ├── PaymentContext.php
+│   └── SelectPaymentService.php
 ├── interfaces/
-│ └── PaymentGatewayInterface.php
+│   └── PaymentGatewayInterface.php
 
 database/
 └── seeders/
-└── PaymentsSeeder.php
+    └── PaymentsSeeder.php
 
 routes/
 ├── web.php
@@ -55,8 +55,8 @@ routes/
 
 resources/
 └── views/
-├── welcome.blade.php
-└── dashboard.blade.php
+    ├── welcome.blade.php
+    └── dashboard.blade.php
 
 ## 🛠️ Setup Instructions
 
