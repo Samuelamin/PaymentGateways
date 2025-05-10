@@ -23,12 +23,9 @@ A Laravel-based modular payment integration system that dynamically selects and 
 
 
 ## 🛠️ Setup Instructions
-1. **Clone the repository**
+1. **Clone & install**  
    ```bash
-   git clone https://github.com/Samuelamin/PaymentGateways.git
-   cd cycle-payments
-2. **Clone & install**  
-   git clone git@github.com:your-org/cycle-payments.git
+   git clone git@github.com:your-org/PaymentGateways.git
    cd PaymentGateways
    composer install
    cp .env.example .env
